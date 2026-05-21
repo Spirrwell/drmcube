@@ -12,6 +12,10 @@ It has 3 main modes of operation:
 
 You may also launch the program with the `--stats` option to see if you're missing vblank intervals.
 
+Additionally, manual modelines may be specified so that you can pick modes your display doesn't necessarily support.
+
+For a more detailed explanation, see the comments at the start of main.c.
+
 I had Claude write this program so I could do some testing. It seems to do pretty much what I want. Maybe it's helpful for you too.
 
 As such, I'm throwing the Unlicense on here. Do with this software what you will brave one.
