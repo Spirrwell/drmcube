@@ -19,3 +19,10 @@ For a more detailed explanation, see the comments at the start of main.c.
 I had Claude write this program so I could do some testing. It seems to do pretty much what I want. Maybe it's helpful for you too.
 
 As such, I'm throwing the Unlicense on here. Do with this software what you will brave one.
+
+For those that are in a hurry:
+
+```
+cc -O2 -Wall -Wextra main.c -o drmcube \
+    $(pkg-config --cflags --libs libdrm gbm egl glesv2) -lm
+```
